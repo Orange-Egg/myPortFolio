@@ -1,0 +1,184 @@
+
+/* header */
+.navi-list {    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /*ナビゲーションバーを固定する場合は↓を使用*/
+    /*position: fixed;*/
+    top: 3px;
+    left: 3px;
+}
+
+.navi-list button {
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: grey;
+    outline: none;
+    flex: auto;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.page-title {    
+    width: 100%;
+    height: 300px;
+    background-color: #a52a2a;
+    /* background-image: url(); */
+}
+
+.page-title h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;     
+}
+
+.page-title p {
+    color:  #a52a2a;
+}
+
+/* main */
+.section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;    
+}
+
+/* sectionクラスの後、要素に回り込みを
+許さず改行させる */
+.section::after { 
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.section ul {
+    list-style-type: none;
+}
+
+.section p {
+    text-align: left;
+}
+
+.section h2 {
+    position: relative;
+    font-size: 40px; 
+}
+
+.secttion ul {
+    width: 450px;
+    text-align: left;
+    position: absolute;    
+    left: 250px;
+}
+
+.about {
+    /* 要素を横並びに配置 */
+    display: inline-block; 
+    width: 450px;
+    margin: 0px 40px;
+}
+
+.about table {
+    border-spacing: 40px 2px;
+}
+
+.about th {
+    text-align: left;
+}
+
+.about td {
+    text-align: left;
+}
+
+.exp {
+    /* 要素を横並びに配置 */
+    display: inline-block; 
+    width: 450px;
+    margin: 0px 40px;
+}
+
+.exp span {
+    font-weight: bold;
+}
+
+.exp b {
+    text-align: left;
+}
+
+.works {
+    /* 要素(webアプリ)を横並びに配置 */
+    display: inline-block; 
+    width: 300px;
+    margin: 20px 40px;
+    padding: 10px 10px;
+    border: 2px solid;
+    border-color: #a52a2a;
+    border-radius: 10px;
+}
+
+.works a {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.works p {
+    text-align: left;    
+}
+
+#link-4 table {
+    border-spacing: 40px 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#link-4 td {
+    text-align: left;
+}
+
+#link-5 table {
+    border-spacing: 40px 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#link-5 td {
+    text-align: left;
+}
+
+/* footer */
+footer p {
+    text-align: center;
+}
+
+.return-top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.return-top:hover {
+    background-color: #9b72b0;
+}
+
+.return-top span {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    right: 13px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 80px;
+    text-align: center;    
+}

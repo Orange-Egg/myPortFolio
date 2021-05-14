@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="">
+</head>
+<body>
+    <header>
+        <div class="page-title">
+            <p>test</p>
+            <h1>Saori Horiuchi's Portfolio</h1>
+        </div>
+        <div class="navi-list">
+            <button id="link-about" onclick="scrollToPlace()">About</button>
+            <button id="link-experiences" onclick="scrollToPlace()">Experiences</button>
+            <button id="link-works" onclick="scrollToPlace()">Works</button>
+            <button id="link-skills" onclick="scrollToPlace()">Skills</button>
+            <button id="link-contact" onclick="scrollToPlace()">Contact</button>
+        </div>
+    </header>
+    <main>
+        <br><br>
+        <div id="link-1" class="section">
+            <div class="about">
+                <h2>About</h2>
+                <table>
+                    <tr>
+                        <th>名前</th>
+                        <td>堀内 沙織 （Saori Horiuchi）</td>
+                    </tr>
+                    <tr>
+                        <th>出身地</th>
+                        <td> 新潟県佐渡市</td>
+                    </tr>
+                    <tr>
+                        <th>卒業大学</th>
+                        <td>富山大学理学部化学科 2009年卒</td>
+                    </tr>
+                    <tr>
+                        <th>趣味</th>
+                        <td>身体を動かすこと、カラオケ、読書</td>
+                    </tr>
+                    <tr>
+                        <th>特技</th>
+                        <td>車の運転、英会話</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="about">
+                <img src="run.png" alt="picture" width="450" height="250">
+            </div>
+        </div>
+        <br><br>
+        <div id="link-2" class="section">
+            <div class="exp">
+                <h2>Experiences</h2>
+                <b>2009-2017</b>
+                <p> 大学卒業後、内資系製薬会社に就職。医薬情報担当者（MR）として長野県（5年間）・新潟県（3年間）にて勤務。
+                    医療従事者を対象とした自社製品のプレゼンテーションや各種セミナーの企画＆実行といった経験を積む。
+                </p>
+                <b>2017-2021</b>
+                <p> 家族の転勤に伴いアメリカ・ヒューストン在住<br>
+                    現地のスクールにて英会話とプログラミングを学ぶ。
+                    2019年より約1年間、ヒューストン在住日本人向け刊行物の編集作業にボランティアスタッフとして携わり、誌面レイアウトを担当する。
+                </p>
+                <b>2021</b>
+                <p> 日本へ引っ越し 現在再就職活動中</p>
+            </div>
+            <div class="exp">
+                <img src="esl.png" alt="picture" width="450" height="250">
+            </div>
+        </div>
+        <br><br>
+        <div id="link-3" class="section">
+            <h2>Works</h2>
+            <div>
+                <div class="works">
+                    <h3><a href="https://orange-egg.github.io/firstWebApp/">ほめてくれるよ</a></h3>
+                    <p>初めて作ったWebアプリです。名前を入力するとあたたかい言葉であなたをほめてくれます。</p>
+                    <p>使用ツール: HTML&CSS/JavaScript</p>
+                </div>
+                <div class="works">
+                    <h3><a href="">Hello! Words</a></h3>
+                    <p>英単語を学習するための掲示板です。アカウント登録・ログイン機能・投稿データ管理機能を備えています。
+                    </p>
+                    <p>使用ツール: HTML&CSS/PHP/MySQL</p>
+                </div>
+                <br>
+                <div class="works">
+                    <h3><a href="">冷蔵庫管理</a></h3>
+                    <p>冷蔵庫で保管している食品の賞味期限を一覧で表示してくれるアプリです。食品データ管理・期限の迫った食品・期限切れの食品を分かりやすく表示します。</p>
+                    <p>使用ツール: HTML&CSS/JavaScript/
+                        PHP/MySQL</p>
+                </div>
+                <div class="works">
+                    <h3><a href="">医薬品データ管理</a></h3>
+                    <p>現在使っている医薬品のデータを管理することができます。検索機能が付いています。</p>                    
+                    <p>使用ツール: HTML&CSS/JavaScript/PHP
+                    /Laravel/MySQL</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div id="link-4" class="section">
+            <h2>Skills</h2>
+
+            <table>
+                <tr>
+                    <td>HTML&CSS</td>
+                    <td>★★☆☆☆</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>★★☆☆☆</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>★★☆☆☆</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>★★☆☆☆</td>
+                </tr>
+                <tr>
+                    <td>MySQL</td>
+                    <td>★★☆☆☆</td>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+        <div id="link-5" class="section">
+            <h2>Contact</h2>
+            <table>
+                <tr>
+                    <td>GitHub</td>
+                    <td><a href="https://github.com/Orange-Egg">Orange-Egg</a></td>
+                </tr>
+                <tr>
+                    <td>Qiita</td>
+                    <td><a href="https://qiita.com/visible_tea">visible_tea</a></td>
+                </tr>
+                <tr>
+                    <td>Twitter</td>
+                    <td><a href="https://twitter.com/enjoytech5">enjoytech5</a></td>
+                </tr>
+            </table>
+        </div>
+        <br><br><br><br>
+        <footer>
+            <a class="return-top" onclick="scrollToTop()"><span>Top<br>に戻る</span></a>
+            <p>copyright (c) by Saori Horiuchi - All rights reserved.</p>
+            <br>
+        </footer>
+    </main>
+    <script type="text/javascript" src="main.js" charset="UTF-8"></script>
+</body>
+</html>
